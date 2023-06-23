@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Добро пожаловать в наше уютное кафе! Мы предлагаем широкий выбор вкусных блюд, свежих напитков и приятную атмосферу. Загляните к нам и насладитесь вкусами и ароматами кулинарных шедевров.">
+    <meta name="keywords" content="кафе, ресторан, еда, напитки, меню, обед, ужин, завтрак">
+    <meta name="author" content="Cafe">
+    <meta name="robots" content="index, follow">
+    <title>Cafe | Меню</title>
+    <link rel="stylesheet" href="css/menu.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="icon" href="assets/header_logo.svg" type="image/svg+xml">
+</head>
+<body>
+<header class="header sticky">
+    <div class="container">
+        <nav class="nav">
+            <a class="header-logo" href="index.html">
+                <img class="header-logo-img" loading="lazy" src="assets/header_logo.svg" alt="Логотип">
+                Cafe.
+            </a>
+            <div class="burger-menu">
+                <i class="ri-menu-line burger-open"></i>
+                <i class="ri-close-line burger-close"></i>
+            </div>
+            <ul class="nav-list">
+                <li class="nav-elem"><a href="index.html" class="nav-link">Главная</a></li>
+                <li class="nav-elem"><a href="index.html#about" class="nav-link">О нас</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main class="main">
+    <section class="menu">
+        <div class="container">
+            <h1 class="search-title">Поиск</h1>
+            <form action="#" method="post" class="form-inputs">
+                <input type="text" class="form-input" placeholder="Поиск товара">
+            </form>
+            <div class="menu-filters">
+                <div class="menu-filter selected" data-filter="all">Все товары</div>
+                <div class="menu-filter" data-filter=".coffee">Кофе</div>
+                <div class="menu-filter" data-filter=".salads">Салаты</div>
+                <div class="menu-filter" data-filter=".meals">Обеды</div>
+                <div class="menu-filter" data-filter=".breakfast">Завтраки</div>
+            </div>
+            <div class="products">
+                <div class="product coffee">
+                    <div class="product-img-block">
+                        <button class="product-add">+</button>
+                        <img loading="lazy" src="assets/products/first.png" alt="Изображение товара" class="product-img">
+                    </div>
+                    <a href="product-page.html">
+                        <h1 class="product-title">Горячий шоколад</h1>
+                    </a>
+                    <p class="product-price">4.99 $</p>
+                </div>
+                <div class="product coffee">
+                    <div class="product-img-block">
+                        <button class="product-add">+</button>
+                        <img loading="lazy" src="assets/products/second.png" alt="Изображение товара" class="product-img">
+                    </div>
+                    <a href="product-page.html">
+                        <h1 class="product-title">Белый горячий шоколад</h1>
+                    </a>
+                    <p class="product-price">3.99 $</p>
+                </div>
+                <div class="product salads">
+                    <div class="product-img-block">
+                        <button class="product-add">+</button>
+                        <img loading="lazy" src="assets/products/third.png" alt="Изображение товара" class="product-img">
+                    </div>
+                    <a href="product-page.html">
+                        <h1 class="product-title">Салат "Цезарь"</h1>
+                    </a>
+                    <p class="product-price">2.99 $</p>
+                </div>
+                <div class="product salads">
+                    <div class="product-img-block">
+                        <button class="product-add">+</button>
+                        <img loading="lazy" src="assets/products/fourth.png" alt="Изображение товара" class="product-img">
+                    </div>
+                    <a href="product-page.html">
+                        <h1 class="product-title">Салат с кониной</h1>
+                    </a>
+                    <p class="product-price">3.99 $</p>
+                </div>
+                <div class="product meals">
+                    <div class="product-img-block">
+                        <button class="product-add">+</button>
+                        <img loading="lazy" src="assets/products/fifth.png" alt="Изображение товара" class="product-img">
+                    </div>
+                    <a href="product-page.html">
+                        <h1 class="product-title">Тосты с жареным сыром</h1>
+                    </a>
+                    <p class="product-price">5.99 $</p>
+                </div>
+                <div class="product meals">
+                    <div class="product-img-block">
+                        <button class="product-add">+</button>
+                        <img loading="lazy" src="assets/products/sixth.png" alt="Изображение товара" class="product-img">
+                    </div>
+                    <a href="product-page.html">
+                        <h1 class="product-title">Багет с сыром и колбасой</h1>
+                    </a>
+                    <p class="product-price">6.99 $</p>
+                </div>
+                <div class="product breakfast">
+                    <div class="product-img-block">
+                        <button class="product-add">+</button>
+                        <img loading="lazy" src="assets/products/seventh.png" alt="Изображение товара" class="product-img">
+                    </div>
+                    <a href="product-page.html">
+                        <h1 class="product-title">Панкейки</h1>
+                    </a>
+                    <p class="product-price">3.99 $</p>
+                </div>
+                <div class="product breakfast">
+                    <div class="product-img-block">
+                        <button class="product-add">+</button>
+                        <img loading="lazy" src="assets/products/eighth.png" alt="Изображение товара" class="product-img">
+                    </div>
+                    <a href="product-page.html">
+                        <h1 class="product-title">Бирчер мюсли</h1>
+                    </a>
+                    <p class="product-price">2.99 $</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-blocks">
+            <div class="footer-block">
+                <p class="footer-text">2023. Cafe. Все права защищены</p>
+            </div>
+            <div class="footer-block footer-icons">
+                <a target="_blank" href="https://twitter.com">
+                    <i class="ri-twitter-fill footer-icon"></i>
+                </a>
+                <a target="_blank" href="https://instagram.com">
+                    <i class="ri-instagram-fill footer-icon"></i>
+                </a>
+            </div>
+            <div class="footer-block">
+                <p class="footer-text">cafe@gmail.com</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/mixitup.min.js"></script>
+<script src="js/filter.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
